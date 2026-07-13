@@ -1,3 +1,4 @@
+use LibraryManagement;
 INSERT INTO authors(AUTHOR_ID,AUTHOR_NAME,COUNTRY,DATEOFBIRTH)
 VALUES
 (84321,'Elena Rostova','Russia','1982-04-14'),
