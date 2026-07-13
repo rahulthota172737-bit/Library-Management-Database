@@ -1,124 +1,190 @@
-\# 📚 Library Management Database
+# 📚 Library Management Database
 
+A relational database project built using **MySQL** that simulates the core operations of a modern library. The project demonstrates database design, normalization, relationships, constraints, and SQL-based data management.
 
+---
 
-A relational database project built using MySQL to manage books, authors, members, staff, borrowing, reservations, and fines.
+## 🚀 Project Overview
 
+This project manages the complete workflow of a library, including:
 
+- 📖 Book Management
+- ✍️ Author Management
+- 🗂️ Category Management
+- 👤 Member Registration
+- 👨‍💼 Staff Management
+- 📚 Book Borrowing
+- 📌 Book Reservations
+- 💰 Fine Management
 
-\## Features
+The database is designed using relational database principles with proper normalization, primary keys, foreign keys, and constraints.
 
+---
 
+## 🛠️ Technologies Used
 
-\- Database normalization
+- MySQL
+- SQL
 
-\- Primary Keys
+---
 
-\- Foreign Keys
-
-\- Constraints
-
-\- Sample data
-
-\- Book borrowing system
-
-\- Reservation system
-
-\- Fine management
-
-
-
-\## Tables
-
-
-
-\- Authors
-
-\- Categories
-
-\- Books
-
-\- Members
-
-\- Staff
-
-\- Book\_Copies
-
-\- Borrow\_Records
-
-\- Reservations
-
-\- Fines
-
-
-
-\## Technologies Used
-
-
-
-\- MySQL
-
-\- SQL
-
-
-
-\## Project Structure
-
-
+## 📂 Project Structure
 
 ```
-
 Library-Management-Database/
-
 │
-
-├── schema.sql
-
-├── sample\_data.sql
-
 ├── README.md
-
-├── docs/
-
-└── queries/
-
+├── schema.sql
+├── sample_data.sql
+├── queries/
+│   ├── basic_queries.sql
+│   ├── update_delete.sql
+│   ├── joins.sql
+│   ├── subqueries.sql
+│   ├── views.sql
+│   ├── procedures.sql
+│   ├── triggers.sql
+│   └── transactions.sql
+│
+└── docs/
+    ├── ER_Diagram.png
+    └── Project_Report.pdf
 ```
 
+---
 
+## 🗃️ Database Tables
 
-\## Progress
+| Table | Description |
+|--------|-------------|
+| Authors | Stores author information |
+| Categories | Stores book categories |
+| Books | Stores book details |
+| Members | Stores library members |
+| Staff | Stores staff details |
+| Book_Copies | Stores physical copies of books |
+| Borrow_Records | Tracks issued and returned books |
+| Reservations | Manages book reservations |
+| Fines | Stores overdue and lost book fines |
 
+---
 
+## ✨ Features
 
-\- ✅ Day 1
+- Relational Database Design
+- Primary Keys & Foreign Keys
+- Entity Relationships
+- Sample Dataset
+- Book Borrowing System
+- Reservation Management
+- Fine Tracking
+- SQL Query Practice
+- Data Integrity using Constraints
 
-&#x20; - Database schema created
+---
 
-&#x20; - Sample data inserted
+## 📖 SQL Concepts Covered
 
+### Database Design
+- CREATE DATABASE
+- CREATE TABLE
+- ALTER TABLE
 
+### Constraints
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- NOT NULL
+- CHECK
 
-\- ⏳ Day 2
+### Data Manipulation
+- INSERT
+- UPDATE
+- DELETE
 
-&#x20; - Basic SQL Queries
+### Querying
+- SELECT
+- WHERE
+- ORDER BY
+- LIMIT
+- LIKE
+- IN
+- BETWEEN
 
+### Advanced SQL *(In Progress)*
+- JOINs
+- GROUP BY
+- HAVING
+- Subqueries
+- Views
+- Indexes
+- Stored Procedures
+- Triggers
+- Transactions
+- Window Functions
 
+---
 
-\- ⏳ Day 3
+## 📅 Development Progress
 
-&#x20; - Joins
+### ✅ Day 1
+- Designed database schema
+- Created all tables
+- Established relationships
+- Added sample data
+- Published project to GitHub
 
-&#x20; - Views
+### 🚧 Day 2
+- Basic SQL Queries
+- Filtering
+- Sorting
+- Aggregate Functions
+- UPDATE & DELETE
 
-&#x20; - Subqueries
+### 🚧 Day 3
+- JOINs
+- GROUP BY
+- HAVING
+- Subqueries
+- Views
+- Indexes
 
+### 🚧 Day 4
+- Stored Procedures
+- Triggers
+- Transactions
+- Window Functions
+- Final Documentation
 
+---
 
-\- ⏳ Day 4
+## 🎯 Learning Objectives
 
-&#x20; - Procedures
+This project was created to strengthen practical SQL skills by applying:
 
-&#x20; - Triggers
+- Relational database modeling
+- Data normalization
+- Database constraints
+- SQL query writing
+- Real-world database design
 
-&#x20; - Transactions
+---
 
+## 🔮 Future Improvements
+
+- Stored Procedures
+- Automatic Fine Calculation
+- Borrow/Return Triggers
+- Performance Optimization using Indexes
+- ER Diagram Documentation
+- Backup & Restore Scripts
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Jack HOT** as part of a hands-on SQL learning journey and portfolio development.
+
+---
+
+⭐ If you found this project helpful, feel free to star the repository.
