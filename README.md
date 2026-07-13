@@ -183,7 +183,7 @@ This project was created to strengthen practical SQL skills by applying:
 
 ## 👨‍💻 Author
 
-Developed by **Jack HOT** as part of a hands-on SQL learning journey and portfolio development.
+Developed by **Rahul Karthik** as part of a hands-on SQL learning journey and portfolio development.
 
 ---
 
