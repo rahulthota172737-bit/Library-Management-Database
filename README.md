@@ -185,6 +185,3 @@ This project was created to strengthen practical SQL skills by applying:
 
 Developed by **Rahul Karthik** as part of a hands-on SQL learning journey and portfolio development.
 
----
-
-⭐ If you found this project helpful, feel free to star the repository.
